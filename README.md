@@ -1,9 +1,7 @@
-Example Voting App
+Docker Voting App with CICD using Jenkins,Github,and DTR
 ==============
 
-This is an example Docker app with multiple services. It is run with Docker Compose and uses Docker Networking to connect containers together.
-
-More info at https://blog.docker.com/2015/11/docker-toolbox-compose/
+This app is used to help you construct a full CICD pipeline using Jenkins, Github, and DTR. This is based on the [example voting app](https://github.com/docker/example-voting-app) with multiple services. It is run with Docker Compose and uses Docker Networking to connect containers together. 
 
 Architecture
 -----
@@ -14,22 +12,11 @@ Architecture
 * A Postgres database backed by a Docker volume
 * A Node.js webapp which shows the results of the voting in real time
 
-Running
+Running the App
 -------
 
-Since this app makes use of Compose's experimental networking support, it must be started with:
-
-    $ cd vote-apps/
-    $ docker-compose --x-networking up -d
+This app can requires special instructions to be deployed as instructed in Lab #9 in [Docker Tutorials Repo](https://github.com/docker/dceu_tutorials).
 
 The app will be running on port 5000 on your Docker host, and the results will be on port 5001.
 
-Docker Hub images
------------------
 
-Docker Hub images for services in this app are built automatically from master:
-
- - [docker/example-voting-app-voting-app](https://hub.docker.com/r/docker/example-voting-app-voting-app/)
- - [docker/example-voting-app-results-app](https://hub.docker.com/r/docker/example-voting-app-results-app/)
- - [docker/example-voting-app-worker](https://hub.docker.com/r/docker/example-voting-app-worker/)
-#test
