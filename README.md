@@ -20,3 +20,10 @@ This app can requires special instructions to be deployed as instructed in Lab #
 The app will be running on port 5000 on your Docker host, and the results will be on port 5001.
 
 
+<<<<<<< HEAD
+=======
+ - [docker/example-voting-app-voting-app](https://hub.docker.com/r/docker/example-voting-app-voting-app/)
+ - [docker/example-voting-app-results-app](https://hub.docker.com/r/docker/example-voting-app-results-app/)
+ - [docker/example-voting-app-worker](https://hub.docker.com/r/docker/example-voting-app-worker/)
+
+>>>>>>> 577962f5349625004acfd0233e3d9b56494cd348
