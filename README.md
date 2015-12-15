@@ -1,7 +1,9 @@
 Docker Voting App with CICD using Jenkins,Github,and DTR
-==============
+===============
 
 This app is used to help you construct a full CICD pipeline using Jenkins, Github, and DTR. This is based on the [example voting app](https://github.com/docker/example-voting-app) with multiple services. It is run with Docker Compose and uses Docker Networking to connect containers together. 
+
+![](images/9_image_1.png)
 
 Architecture
 -----
